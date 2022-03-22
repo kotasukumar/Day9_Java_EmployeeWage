@@ -10,7 +10,7 @@ public class Main {
         int monthlyHours = 0;
         int totalWorkingDays = 1;
 
-        for (int i = 0; i < 21; i++) {
+        while (monthlyHours <= 100 || totalWorkingDays <= 20){
             int random = (int) Math.floor(Math.random() * 10) % 3;
             switch (random) {
                 case ISFULLTIME:
