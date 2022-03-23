@@ -7,8 +7,8 @@ public class Main {
         System.out.println("Welcome to Employee Wage Computation Program ");
 
         EmployeeWage employeeWage = new EmployeeWage();
-        employeeWage.wagePerHour = 20;
-        employeeWage.Calculation();
+        employeeWage.getParameters("TATA", 25, 19, 95);
+        employeeWage.getParameters("WIPRO", 20, 20, 100);
     }
 }
 
